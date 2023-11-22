@@ -1,0 +1,31 @@
+{
+  "name": "template-web-min",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@epreston/eslint-config"
+    ],
+    "rules": {
+      "prettier/prettier": "off"
+    }
+  },
+  "prettier": "@epreston/prettier-config",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "lint": "eslint --fix --ext .js,.mjs,.cjs --report-unused-disable-directives .",
+    "format": "prettier --write \"**/*.?(c|m)[tj]s?(x)\""
+  },
+  "devDependencies": {
+    "@epreston/eslint-config": "^1.1.1",
+    "@epreston/prettier-config": "^2.0.0",
+    "@epreston/tsconfig": "^1.0.1",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "vite": "^5.0.2"
+  }
+}

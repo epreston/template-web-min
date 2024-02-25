@@ -17,7 +17,7 @@
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
-    "lint": "eslint --fix --ext .js,.mjs,.cjs --report-unused-disable-directives .",
+    "lint": "eslint --fix --ext .js --report-unused-disable-directives .",
     "format": "prettier --write \"**/*.?(c|m)[tj]s?(x)\""
   },
   "devDependencies": {

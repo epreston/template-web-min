@@ -9,7 +9,7 @@
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
     "lint": "eslint --fix --report-unused-disable-directives .",
-    "format": "prettier --write \"**/*.?(c|m)[tj]s?(x)\""
+    "format": "prettier --write \"**/*.?(c|m)[tj]s\""
   },
   "devDependencies": {
     "@epreston/eslint-config": "^2.0.0",

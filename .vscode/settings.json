@@ -1,9 +1,26 @@
 {
-  "cSpell.ignoreWords": ["epreston"],
-  "cSpell.words": [],
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    ".git": true,
+    "**/.DS_Store": true
   },
-  "eslint.validate": ["javascript"]
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "[plaintext]": {
+    "files.insertFinalNewline": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "cSpell.words": [],
+  "cSpell.ignoreWords": ["epreston"]
 }

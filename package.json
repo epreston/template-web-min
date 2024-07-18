@@ -7,7 +7,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
-    "preview": "vite preview",
     "lint": "eslint --fix .",
     "format": "prettier --write \"**/*.?(c|m)[tj]s\""
   },

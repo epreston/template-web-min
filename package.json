@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "lint": "eslint .",
-    "format": "prettier --check \"**/*.[tj]s\""
+    "format": "prettier --write \"**/*.?(c|m)[tj]s\""
   },
   "devDependencies": {
     "@epreston/eslint-config": "^2.1.1",

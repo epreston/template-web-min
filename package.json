@@ -4,9 +4,9 @@
   "name": "template-web-min",
   "version": "0.0.1",
   "prettier": "@epreston/prettier-config",
-  "packageManager": "npm@10.8.1",
+  "packageManager": "npm@10.8.2",
   "engines": {
-    "node": "^18.20.4 || ^20.16.0 || >=22.6.0"
+    "node": "^18.20.4 || ^20.17.0 || >=22.7.0"
   },
   "scripts": {
     "dev": "vite",

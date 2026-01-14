@@ -3,6 +3,9 @@
   "type": "module",
   "name": "template-web-min",
   "version": "0.0.1",
+  "browserslist": [
+    "baseline 2025"
+  ],
   "prettier": "@epreston/prettier-config",
   "packageManager": "npm@11.7.0",
   "engines": {

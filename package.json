@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "template-web-min",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "browserslist": [
     "baseline 2025"
   ],

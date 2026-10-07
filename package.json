@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@epreston/eslint-config": "^3.0.0",
-    "@epreston/prettier-config": "^2.1.1",
+    "@epreston/prettier-config": "^2.1.2",
     "@epreston/tsconfig": "^1.2.3",
     "eslint": "^10.12.0",
     "prettier": "^3.9.9",
